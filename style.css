@@ -1,0 +1,51 @@
+body {
+    background-color: green;
+}
+
+.cardContainer {
+    padding-top: 50px;
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.card h1 {
+    font-size: 90px;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+
+.card p {
+    font-size: 110px;
+    margin-top: -25px;
+    margin-left: 38%;
+    margin-right: auto;
+}
+
+.card h2 {
+    font-size: 90px;
+    margin-top: -50px;
+    margin-right: 15px;
+    float: right;
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
+
+.diamond {
+    color : red  
+}
+
+.heart {
+    color : red  
+}
